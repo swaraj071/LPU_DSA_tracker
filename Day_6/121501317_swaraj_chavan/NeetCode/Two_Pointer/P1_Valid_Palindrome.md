@@ -1,5 +1,6 @@
 # Valid Palindrome 
 - https://leetcode.com/problems/valid-parentheses/description/
+
 ``` python 
 class Solution:
     def isPalindrome(self, s: str) -> bool:
@@ -7,6 +8,5 @@ class Solution:
         for c in s:
          if c.isalnum():
             newStr+= c.lower()
-        return newStr == newStr[::-1]
-        
+        return newStr == newStr[::-1]       
 ```

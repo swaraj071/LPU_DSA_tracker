@@ -1,6 +1,7 @@
 # Valid Parentheses  
 
 - https://leetcode.com/problems/valid-parentheses/description/
+
 ``` python 
 class Solution:
     def isValid(self, s: str) -> bool:
@@ -18,5 +19,5 @@ class Solution:
                 if not stack or stack.pop() != pairs[ch]:
                     return False
 
-        return len(stack) == 0
+       return len(stack) == 0
 ```

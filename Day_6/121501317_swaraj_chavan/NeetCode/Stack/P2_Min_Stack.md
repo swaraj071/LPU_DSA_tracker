@@ -1,7 +1,8 @@
  # Min Stack 
  
  - https://leetcode.com/problems/min-stack/
- ``` python 
+ 
+``` python 
  class MinStack:
 
     def __init__(self):
@@ -32,4 +33,4 @@
             self.stack.append(tmp.pop())
 
         return mini
- ```
+```
